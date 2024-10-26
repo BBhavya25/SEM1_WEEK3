@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Spacing Variable</title>
+<style>
+  :root {
+    --spacing: 20px;
+  }
+
+  .container {
+    padding: var(--spacing);
+    background-color: #f3caca;
+  }
+
+  .button {
+    padding: calc(var(--spacing) / 2) var(--spacing);
+    background-color: #064b79;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+
+  .card {
+    padding: var(--spacing);
+    background-color: #f78d8d;
+    margin: var(--spacing);
+    border: 1px solid #ea6767;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <h2>Spacing Variable Example</h2>
+  <div class="card">This card uses the spacing variable for padding and margin.</div>
+  <button class="button">Button with Spacing</button>
+</div>
+</body>
+</html>

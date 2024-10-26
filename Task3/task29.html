@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Primary Color Variable</title>
+<style>
+  :root {
+    --primary-color: #97d1f8;
+  }
+
+  body {
+    background-color: var(--primary-color);
+    color: rgb(235, 33, 33);
+  }
+
+  h1, h2 {
+    color: var(--primary-color);
+  }
+
+  .button {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+  }
+</style>
+</head>
+<body>
+<h1>Welcome to My Website</h1>
+<h2>Primary Color Example</h2>
+<button class="button">Click Me</button>
+</body>
+</html>

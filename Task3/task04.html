@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body{
+            background-color: blanchedalmond;
+           text-align: center;
+        }
+        .tooltip {
+            position: relative;
+            padding: 20px;
+            margin-top: 30px;
+            border: 2px solid #edbaf2;
+            background-color: #edbaf2;
+            border-radius: 7px;
+            
+        }
+        .tooltip .tooltiptext {
+            visibility: hidden;
+            width: 120px;
+            background-color: brown;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            border-radius: 7px;
+            position: absolute;
+            top: -5px;
+            left: 105%;
+        }
+        .tooltip:hover .tooltiptext {
+            visibility: visible;
+
+        }
+    </style>
+</head>
+<body>
+    <button class="tooltip">Click me
+        <span class="tooltiptext">Hello! I am click me button </span>
+    </button>
+</body>
+</html>

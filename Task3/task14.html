@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Cropping with Overflow Hidden</title>
+    <style>
+        .image-container {
+            width: 300px;
+            height: 200px;
+            overflow: hidden;
+            border: 2px solid #333;
+        }
+
+        .image-container img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="image-container">
+        <h3>cropped image</h3>
+        <img src="https://121clicks.com/wp-content/uploads/2024/01/stunning-landscape-photography-02.jpg" alt="Cropped Image">
+    </div> <br><br>
+    <h3>Original image</h3>
+    <img src="https://121clicks.com/wp-content/uploads/2024/01/stunning-landscape-photography-02.jpg" alt="" height="300" width="300">
+
+</body>
+</html>

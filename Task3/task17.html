@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Button with Icon</title>
+    <style>
+         body{
+            text-align: center;
+            margin-top: 50px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #28a745;
+            color: white;
+            border: none;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button::before {
+            content: "★";
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <button>Star Button</button>
+</body>
+</html>

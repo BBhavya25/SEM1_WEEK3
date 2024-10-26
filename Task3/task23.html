@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Background Color Animation</title>
+    <style>
+        .banner {
+            width: 100%;
+            height: 150px;
+            animation: changeColor 4s infinite;
+        }
+        @keyframes changeColor {
+            0% { background-color: #007BFF; }
+            25%{ background-color: rgb(168, 143, 143);}
+            50% { background-color: #28a745; }
+            75%{background-color: bisque;}
+            100% { background-color: #910868; }
+        }
+    </style>
+</head>
+<body>
+    <div class="banner"></div>
+</body>
+</html>
